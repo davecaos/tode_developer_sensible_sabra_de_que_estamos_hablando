@@ -16,45 +16,151 @@
     .column { flex: 50%;}
 
     .goose {
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
+        position: absolute;
     }
     </style>
   </head>
   <body>
 
     <div id="slides">
+      <fakecover>
+        <section >
+            <h2>What we talk about when we talk about dank memes </h2>
+            <h3>By Jano Gonzalez </h3>
+          </section>
+      </fakecover>
+        
+      <cover>
+        <section class="photo" style="background-color:white">
+          <img src="cover_imagenes/slide0.png" >  
+        </section>
+      </cover>
+      
+      <presentation>
+        <section class="photo" style="background-color:white">
+          <img src="imagenes/goose_full_stack.jpg" >  
+        </section>
 
-      <section class="photo" style="background-color:white">
-        <img src="cover_imagenes/slide0.png" >  
+        <section class="photo" style="background-color:white">
+            <img src="imagenes/Graphic_design_is_my_passion.jpg" > 
+         </section>
+      
+        <section >
+            <img src="imagenes/steve_bucemi.png" alt=""> 
+        </section>
+        <section >
+            <img src="imagenes/pendeviejo.jpg" alt=""> 
+        </section>
+        <section >
+            <div class="row">
+              <div class="column">
+              <img class="fragment" src="imagenes/boquita-tu-senior.jpg" alt=""> 
+              </div>
+              <div class="column">
+              <img class="fragment" src="imagenes/boke.jpg" alt=""> 
+              </div>
+            </div>
+        </section>
+      </presentation>
+
+      
+      <section>
+          <img src="imagenes/fuego.jpg" alt="">  
+      </section>
+
+      <section>
+          <img src="imagenes/fuego-1.jpg" alt="">  
+      </section>
+
+      <section>
+        <img src="imagenes/llorar.jpg"  alt=""> 
+      </section>
+
+      <section>
+          <h3> Juana de Arco Mood ⚔️🛡️</h3>
+          <img src="imagenes/luchar.jpg"  alt="">  
+      </section>
+
+      <section >
+          <h2>el Jardín de las delicias</h2>
+          <h2>del Bosco</h2>
+      </section>
+  
+      <section >
+          <img src="imagenes/el-bosco-el-jardin-de-las-delicias-prado.jpg" alt=""> 
+      </section>
+
+
+      <section >
+          <h2>Volver a las Raices ...</h2>
       </section>
 
       <section>
         <div class="izquierda">
-        <h2 class="izquierda">Developer</h2>
-        <p>sustantivo. [de-ve-lo-per]<br>
-          &nbsp Toda persona involucrada en la producción del producto software
-        </p>
-        <br>
-        Fuente: 220V a 9V 1.5A
-      </div>
-          
+          <h2 class="izquierda">Developer</h2>
+          <respuesta class="fragment" >
+              <p>sustantivo. [de-ve-lo-per]<br>
+                &nbsp Toda persona involucrada en la producción del producto software
+              </p>
+              <br>
+              Fuente: 220V a 9V 1.5A
+          </respuesta>
+        </div>
+      </section>
+      <section>
+          <img src="imagenes/developers.jpg" alt=""> 
       </section>
 
-      <section >
-        <h2>el Jardín de las delicias</h2>
-        <h2>de Bosch</h2>
+      <section>
+          <div class="izquierda">
+            <h4 class="izquierda">Lenguaje de programación</h4>
+            <respuesta>
+                <p class="fragment" >
+                  Un lenguaje de programación es un lenguaje formal, que comprende un conjunto de instrucciones que producen varios tipos de resultados.
+                </p>
+                <br>
+                <p class="fragment">
+                  Los lenguajes de programación se utilizan en la programación de computadoras para implementar algoritmos               
+                </p>
+                <br></br>
+                <br></br>
+                <p class="fragment">
+                  Sauce: https://en.wikipedia.org/wiki/Programming_language
+              </p>
+            </respuesta>
+          </div>
+      </section>
+      <section>
+        <img src="imagenes/html-is-a-programming-lang-change-my-mind.jpg" alt=""> 
+      </section>
+      <section>
+          <img src="imagenes/Galaxy-brain-0.png" alt=""> 
+      </section>
+      <section>
+          <img src="imagenes/Galaxy-brain-1.png" alt=""> 
+      </section>
+      <section>
+          <img src="imagenes/Galaxy-brain-2.png" alt=""> 
+      </section>
+      <section>
+          <img src="imagenes/Galaxy-brain-3.png" alt=""> 
+      </section>
+      <section>
+          <div>
+            <h3>Los prejuicios</h3>
+                <div class="fragment" >
+
+                  HTML -> maquetado -> diseño -> <font color="pink">cosa de minita :(</font>
+                </div>
+                <img src="imagenes/shakira.jpg" width="500" height="612" alt=""> 
+          </div>
       </section>
 
-      <section >
-        <img src="imagenes/el-bosco-el-jardin-de-las-delicias-prado.jpg" alt=""> 
-      </section>
 
       
 
       <section >
-        <h2>el Scrum is not Agile</h2>
+        <h2>Scrum is not Agile</h2>
         <h2>&</h2>
         <h2>the waterfall strawman </h2>
       </section>
@@ -64,51 +170,93 @@
         <h3>(proyectos destinados a fracasar desde su creación) </h3>
       </section>
       
-      <section >
-        <h2> Es mas importante saber antipatrones, </h2>
-        <h3> que patrones (del libro de GoF) </h3>
-      </section>
-
-
-      <section>
-          
-        <div class="row">
-            <img class="goose" src="imagenes/goose.png" alt=""> 
-          <div class="column" style="background-color:#aaa;">
-            <img src="imagenes/old-programmer-1970.jpg" alt="">  
-          </div>
-          
-          <div class="column" style="background-color:#bbb;">
-            <img src="imagenes/hackerman2000s.jpg" alt="">  
-          </div>
-        </div>
-      </section>
       
       <section>
-        <h3>El MITO del 10x engineer</h3>
-        <img src="imagenes/10xEngineer.png" alt="">  
+        <h2>El MITO del 10x engineer</h2>
       </section>
 
+      <section>
+          <img src="imagenes/old_programmer-vs-hackerman2000sA.jpg" alt="">  
+        </section>
+
+        <section>
+            <img src="imagenes/old_programmer-vs-hackerman2000sB.jpg" alt="">  
+          </section>
+
+          <section>
+              <img src="imagenes/old_programmer-vs-hackerman2000sC.jpg" alt="">  
+            </section>
+
+      <section>
+          <img src="imagenes/Hauche.jpg" alt="">  
+      </section>
+
+      <section>
+        <img src="imagenes/campana_de_gauss.jpg" alt="">  
+      </section>
+      
       <section>
         <h2>El Elefante en la Sala</h2>
       </section>
 
 
       <section style="background-color:black">
-        <h2>"La meritocracia""</h2>
+        <h2>"La Meritocracia"</h2>
         <img src="imagenes/Eduardo_Galeano.png" alt="">  
       </section>
 
-      <section >
-        <h1>Todo tiempo pasado fue mejor (?) </h1>
-      </section>
+      <antipatrones>
+        <section>
+          <h2> Es mas importante saber antipatrones, </h2>
+          <h3> que patrones (del libro de GoF) </h3>
+        </section>
+
+        <section>
+            <h3>Solo contratamos a los mejores(?)</h2>
+        </section>
+
+        <section>
+            <img src="imagenes/empleado-cate-1.jpg" alt="">  
+        </section>
+
+        <section>
+            <img src="imagenes/empleado-cate-2.jpg" alt="">  
+        </section>
+
+        <section>
+            <img src="imagenes/empleado-cate-3.jpg" alt="">  
+        </section>
+
+        <section>
+            <img src="imagenes/empleado-cate-4.jpg" alt="">  
+        </section>
+
+        <section>
+            <img src="imagenes/vaporwave.jpg" alt="">  
+        </section>
+
+
+
+      </antipatrones>
+
 
       <section  style="background-color:black">
         <img src="imagenes/patrick-stewart-black-background.jpg" alt="">  
       </section>
 
-      </div>
+      <end>
+        <section  style="background-color:black">
+          <img src="imagenes/desastre.jpg" width="605" height="739"  alt="">  
+        </section>
+      </end>
 
+      <preguntas>
+          <section>
+            <img src="imagenes/preguntas.jpg" alt="">  
+          </section>
+      </preguntas>
+      
+    </div>
 
     <script type="text/javascript" src="dist/pink/pink.js"></script>
   </body>
